@@ -1,0 +1,26 @@
+import "./App.css";
+// import Build from "./components/Build/Build";
+import BuildRunScale from "./components/BuildRunScale/BuildRunScale";
+import Footer from "./components/Footer/Footer";
+import Hero from "./components/Hero/Hero";
+import Navbar from "./components/Hero/Navbar/Navbar";
+import Portfolios from "./components/Portfolios/Portfolios";
+
+function App() {
+    return (
+        <>
+            <div className="px-10 bg-black">
+                <Navbar/>
+                <Hero />
+                <div>
+                    <BuildRunScale/>
+                    {/* <Build/> */}
+                    <Portfolios/>
+                    <Footer/>
+                </div>
+            </div>
+        </>
+    );
+}
+
+export default App;
