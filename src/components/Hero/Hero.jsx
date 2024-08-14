@@ -25,7 +25,7 @@ const Hero = () => {
             </div>
             <div className="pb-28">
                 <img
-                    src="../../../public/assets/home-hero.webp"
+                    src="/assets/home-hero.webp"
                     alt=""
                     className="w-[900px] h-[650px] relative -right-[405px] top-28"
                 />
