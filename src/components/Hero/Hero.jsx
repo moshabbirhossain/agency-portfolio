@@ -1,6 +1,6 @@
 const Hero = () => {
     return (
-        <div className="relative mt-12">
+        <div className="relative mt-24">
             <div className="absolute z-10">
                 <h1 className="text-7xl font-bold text-white">
                     Deploy to production,
