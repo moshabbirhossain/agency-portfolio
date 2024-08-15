@@ -7,9 +7,11 @@ import Navbar from "./components/Hero/Navbar/Navbar";
 import Portfolios from "./components/Portfolios/Portfolios";
 
 function App() {
+    
+
     return (
         <>
-            <div className="px-10 bg-black">
+            <div className="px-3 sm:px-10 bg-gray-700 sm:bg-black">
                 <Navbar/>
                 <Hero />
                 <div>

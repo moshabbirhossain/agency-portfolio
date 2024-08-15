@@ -1,0 +1,128 @@
+[
+    {
+        "id": 1,
+        "name": "Ben Wilson",
+        "image_url": "https://randomuser.me/api/portraits/men/2.jpg",
+        "expertize": "Art Director",
+        "description": "Creative Art Director with a keen eye for design and branding.",
+        "gig_image_url": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=400&h=300&fit=crop",
+        "url": "https://pdemo-1.netlify.app/"
+    },
+    {
+        "id": 2,
+        "name": "Maria Ferrero",
+        "image_url": "https://randomuser.me/api/portraits/women/1.jpg",
+        "expertize": "Freelance designer from Melbourne",
+        "description": "Creative graphic designer with a passion for creating impactful brand identities.",
+        "gig_image_url": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=400&h=300&fit=crop",
+        "url": "https://pdemo-2.netlify.app/"
+    },
+    {
+        "id": 3,
+        "name": "Browny Star",
+        "image_url": "https://randomuser.me/api/portraits/women/4.jpg",
+        "expertize": "UI/UX Designer and Web Developer",
+        "description": "Professional copywriter with a knack for crafting persuasive and engaging content.",
+        "gig_image_url": "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?w=400&h=300&fit=crop",
+        "url": "https://pdemo-3.netlify.app/"
+    },
+    {
+        "id": 4,
+        "name": "Mithiew & Smith | Paul & Shark",
+        "image_url": "https://randomuser.me/api/portraits/men/3.jpg",
+        "expertize": "Graphic Designer | Web Developer",
+        "description": "SEO expert with a proven track record of improving website rankings and traffic.",
+        "gig_image_url": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=400&h=300&fit=crop",
+        "url": "https://pdemo-4.netlify.app/"
+    },
+    {
+        "id": 5,
+        "name": "James Smith",
+        "image_url": "https://randomuser.me/api/portraits/men/5.jpg",
+        "expertize": "UI/UX Designer",
+        "description": "UI/UX Designer focused on creating intuitive, user-friendly interfaces that enhance user experience and engagement.",
+        "gig_image_url": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=400&h=300&fit=crop",
+        "url": "https://pdemo-5.netlify.app/"
+    },
+    {
+        "id": 6,
+        "name": "Hydro Company",
+        "image_url": "https://randomuser.me/api/portraits/women/6.jpg",
+        "expertize": "Full Stack Developer",
+        "description": "Full Stack Developer skilled in both front-end and back-end technologies.",
+        "gig_image_url": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?w=400&h=300&fit=crop",
+        "url": "https://pdemo-6.netlify.app/"
+    },
+    {
+        "id": 7,
+        "name": "Present",
+        "image_url": "https://randomuser.me/api/portraits/men/7.jpg",
+        "expertize": "Graphic Designer",
+        "description": "Graphic Designer specializing in creating visually compelling designs for print and digital media.",
+        "gig_image_url": "https://images.unsplash.com/photo-1521747116042-5a810fda9664?w=400&h=300&fit=crop",
+        "url": "https://pdemo-7.netlify.app/"
+    },
+    {
+        "id": 8,
+        "name": "Stack",
+        "image_url": "https://randomuser.me/api/portraits/women/8.jpg",
+        "expertize": "Wev Developer",
+        "description": "Graphic Designer specializing in creating visually compelling designs for print and digital media.",
+        "gig_image_url": "https://images.unsplash.com/photo-1542744095-fcf48d80b0fd?w=400&h=300&fit=crop",
+        "url": "https://pdemo-8.netlify.app/"
+    },
+    {
+        "id": 9,
+        "name": "RD",
+        "image_url": "https://randomuser.me/api/portraits/men/9.jpg",
+        "expertize": "CV On Web",
+        "description": "Creative Graphic Designer crafting visually striking designs for digital and print media.",
+        "gig_image_url": "https://images.unsplash.com/photo-1513351105277-d4ed9f1ef2af?w=400&h=300&fit=crop",
+        "url": "https://pdemo-9.netlify.app/"
+    },
+    {
+        "id": 10,
+        "name": "Stephen Doe",
+        "image_url": "https://randomuser.me/api/portraits/women/10.jpg",
+        "expertize": "UI/UX & Web Designer",
+        "description": "Professional copywriter with a knack for crafting persuasive and engaging content.",
+        "gig_image_url": "https://images.unsplash.com/photo-1517292987719-0369a794ec0f?w=400&h=300&fit=crop",
+        "url": "https://pdemo-10.netlify.app/"
+    },
+    {
+        "id": 11,
+        "name": "Marvel",
+        "image_url": "https://randomuser.me/api/portraits/men/11.jpg",
+        "expertize": "UI/UX & Web Designer",
+        "description": "Professional copywriter with a knack for crafting persuasive and engaging content.",
+        "gig_image_url": "https://images.unsplash.com/photo-1584697964198-c2d257b134d6?w=400&h=300&fit=crop",
+        "url": "https://pdemo-11.netlify.app/"
+    },
+    {
+        "id": 12,
+        "name": "Upright",
+        "image_url": "https://randomuser.me/api/portraits/women/12.jpg",
+        "expertize": "Illustration",
+        "description": "Upright and detail-oriented professional with a passion for clean, impactful design.",
+        "gig_image_url": "https://images.unsplash.com/photo-1504198453319-5ce911bafcde?w=400&h=300&fit=crop",
+        "url": "https://pdemo-12.netlify.app/"
+    },
+    {
+        "id": 13,
+        "name": "Anthony Russel",
+        "image_url": "https://randomuser.me/api/portraits/men/13.jpg",
+        "expertize": "Mern Stack Developer",
+        "description": "MERN Stack Developer proficient in MongoDB, Express, React, and Node.js technologies.",
+        "gig_image_url": "https://images.unsplash.com/photo-1517148815978-75f6acaaf32c?w=400&h=300&fit=crop",
+        "url": "https://pdemo-13.netlify.app/"
+    },
+    {
+        "id": 14,
+        "name": "John Doe",
+        "image_url": "https://randomuser.me/api/portraits/women/14.jpg",
+        "expertize": "Frond end Designer | Developer",
+        "description": "Front-end developer skilled in creating responsive and dynamic web interfaces.",
+        "gig_image_url": "https://images.unsplash.com/photo-1508847154043-be5407fcaa5a?w=400&h=300&fit=crop",
+        "url": "https://pdemo-14.netlify.app/"
+    }
+]

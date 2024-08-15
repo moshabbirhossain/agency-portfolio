@@ -1,8 +1,8 @@
 const Hero = () => {
     return (
         <div className="relative mt-24">
-            <div className="absolute z-10">
-                <h1 className="text-7xl font-bold text-white">
+            <div className="sm:absolute sm:z-10 ">
+                <h1 className="text-5xl sm:text-7xl font-bold text-white">
                     Deploy to production,
                     <br /> scale globally, in minutes
                 </h1>
@@ -15,19 +15,19 @@ const Hero = () => {
                     and scale your application with zero-configuration
                 </p>
                 <div className="flex gap-4 mt-12">
-                <button className="border-solid border-2 rounded-3xl px-10 py-2 text-white">
+                <button className="border-solid border-2 rounded-3xl px-4 sm:px-10 py-2 text-white">
                     GET STARTED - FREE
                 </button>
-                <button className="border-solid border-2 rounded-3xl px-10 py-2 text-white">
+                <button className="border-solid border-2 rounded-3xl px-4 sm:px-10 py-2 text-white">
                     VIEW PRICING
                 </button>
                 </div>
             </div>
-            <div className="pb-28">
+            <div className="pb-28 mt-10">
                 <img
                     src="/assets/home-hero.webp"
                     alt=""
-                    className="w-[900px] h-[650px] relative -right-[405px] top-28"
+                    className="sm:w-[900px] sm:h-[650px] sm:relative sm:-right-[405px] top-28"
                 />
             </div>
         </div>

@@ -7,7 +7,7 @@ const BuildRunScale = () => {
             <p className="text-white text-center mb-20">
                 Go from local to global in minutes, not months.
             </p>
-            <div className="border-solid border-2 w-  mx-72 rounded-2xl">
+            <div className="border-solid border-2 sm:mx-72 rounded-2xl">
                 <p className="text-base text-white px-6 py-6">
                     # Install Koyeb CLI <br />
                     $ curl https://www.koyeb.com/install.sh | bash <br /> <br />

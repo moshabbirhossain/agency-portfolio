@@ -4,7 +4,7 @@ const Navbar = () => {
             <div className="navbar-start">
                 <h1 className="text-xl font-bold text-white">Koyeb</h1>
             </div>
-            <div className="navbar-center">
+            <div className="hidden sm:block navbar-center">
                 <ul className="flex gap-8">
                     <li className="text-white">Pricing</li>
                     <li className="text-white">Docs</li>
@@ -15,11 +15,11 @@ const Navbar = () => {
                     <li className="text-white">AI</li>
                 </ul>
             </div>
-            <div className="navbar-end gap-6">
-                <button className="border-solid border-2 rounded-3xl px-6 py-1 text-white">
+            <div className="navbar-end gap-3 sm:gap-6">
+                <button className="border-solid border-2 rounded-3xl px-2 sm:px-6 py-1 text-white">
                     LOGIN
                 </button>
-                <button className="border-solid border-2 rounded-3xl px-6 py-1 text-white">
+                <button className="border-solid border-2 rounded-3xl px-2 sm:px-6 py-1 text-white">
                     SIGN UP
                 </button>
             </div>

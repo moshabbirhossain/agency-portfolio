@@ -1,46 +1,46 @@
+import { useEffect } from "react";
+import { useState } from "react";
+
 const Portfolios = () => {
+    const [portfolioData, setPortfolioData] = useState([]);
+    useEffect(() => {
+        fetch("./portfolio.json")
+            .then((res) => res.json())
+            .then((data) => setPortfolioData(data));
+    }, []);
+
     return (
         <div className="pb-10">
             <h1 className="text-white text-5xl font-bold text-center my-12">
                 Portfolios
             </h1>
-            <div className="grid grid-cols-3 gap-10 grid-flow-row-dense">
-                <div className="p-6 border border-gray-200 rounded-lg ">
-                <img src="/assets/github.svg" alt="" className="w-7 h-7 text-gray-50 dark:text-gray-400 mb-3"/>
-                    <a href="#">
-                        <h5 className="mb-2 text-2xl font-semibold tracking-tight text-white">
-                        Deploy from GitHub
-                        </h5>
-                    </a>
-                    <p className="mb-3 font-normal text-white">
-                    Simply git push, we build and deploy your app with blazing fast built-in continuous deployment. Develop fearlessly with native versioning of all deployments.
-                    </p>
-                    <img src="/assets/g2.webp" alt=""/>
-                </div>
-                <div className="p-6 border border-gray-200 rounded-lg ">
-                    <img src="/assets/docker.svg" alt="" className="w-7 h-7 text-gray-50 dark:text-gray-400 mb-3"/>
-                    <a href="#">
-                        <h5 className="mb-2 text-2xl font-semibold tracking-tight text-white">
-                        Deploy Docker containers
-                        </h5>
-                    </a>
-                    <p className="mb-3 font-normal text-white">
-                    Build Docker containers, host them on any registry, and atomically deploy your new version worldwide in a single API call.
-                    </p>
-                    <img src="/assets/d2.webp" alt="" />
-                </div>
-                <div className="p-6 border border-gray-200 rounded-lg ">
-                <img src="/assets/team.svg" alt="" className="w-7 h-7 text-gray-50 dark:text-gray-400 mb-3"/>
-                    <a href="#">
-                        <h5 className="mb-2 text-2xl font-semibold tracking-tight text-white">
-                        Develop with your team
-                        </h5>
-                    </a>
-                    <p className="mb-3 font-normal text-white">
-                    Invite your team to build together and enjoy live preview after each push with built-in CI/CD.
-                    </p>
-                    <img src="/assets/t2.webp" alt="" />
-                </div>
+            <div className="grid sm:grid-cols-3 gap-10 grid-flow-row-dense">
+                {portfolioData.map((item, id) => (
+                    <div
+                        key={id}
+                        className="p-6 border border-gray-200 rounded-lg ">
+                        <img
+                            src={item.image_url}
+                            alt=""
+                            className="w-7 h-7 text-gray-50 dark:text-gray-400 mb-3 rounded-full"
+                        />
+                        <a href="#">
+                            <h5 className="mb-2 text-2xl font-semibold tracking-tight text-white">
+                                {item.name}
+                            </h5>
+                            <h5 className="mb-2 text-xl font-semibold tracking-tight text-white">
+                                {item.expertize}
+                            </h5>
+                        </a>
+                        <p className="mb-3 font-normal text-white">
+                            {item.description}
+                        </p>
+                        <img src={item.gig_image_url} alt="" className="w-full h-48"/>
+                        <div className="text-center">
+                        <a href={item.url} className="btn hover:bg-gray-950 bg-black w-full mt-4  text-white text-xl font-semibold px-auto" target="_blank">Live Link</a>
+                        </div>
+                    </div>
+                ))}
             </div>
         </div>
     );
