@@ -77,7 +77,7 @@
         "image_url": "https://randomuser.me/api/portraits/men/9.jpg",
         "expertize": "CV On Web",
         "description": "Creative Graphic Designer crafting visually striking designs for digital and print media.",
-        "gig_image_url": "https://images.unsplash.com/photo-1513351105277-d4ed9f1ef2af?w=400&h=300&fit=crop",
+        "gig_image_url": "https://images.unsplash.com/photo-1542744095-fcf48d80b0fd?w=400&h=300&fit=crop",
         "url": "https://pdemo-9.netlify.app/"
     },
     {
@@ -95,7 +95,7 @@
         "image_url": "https://randomuser.me/api/portraits/men/11.jpg",
         "expertize": "UI/UX & Web Designer",
         "description": "Professional copywriter with a knack for crafting persuasive and engaging content.",
-        "gig_image_url": "https://images.unsplash.com/photo-1584697964198-c2d257b134d6?w=400&h=300&fit=crop",
+        "gig_image_url": "https://images.unsplash.com/photo-1517292987719-0369a794ec0f?w=400&h=300&fit=crop",
         "url": "https://pdemo-11.netlify.app/"
     },
     {
@@ -104,7 +104,7 @@
         "image_url": "https://randomuser.me/api/portraits/women/12.jpg",
         "expertize": "Illustration",
         "description": "Upright and detail-oriented professional with a passion for clean, impactful design.",
-        "gig_image_url": "https://images.unsplash.com/photo-1504198453319-5ce911bafcde?w=400&h=300&fit=crop",
+        "gig_image_url": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=400&h=300&fit=crop",
         "url": "https://pdemo-12.netlify.app/"
     },
     {
@@ -124,5 +124,14 @@
         "description": "Front-end developer skilled in creating responsive and dynamic web interfaces.",
         "gig_image_url": "https://images.unsplash.com/photo-1508847154043-be5407fcaa5a?w=400&h=300&fit=crop",
         "url": "https://pdemo-14.netlify.app/"
+    },
+    {
+        "id": 15,
+        "name": "Stephen Doe",
+        "image_url": "https://randomuser.me/api/portraits/women/10.jpg",
+        "expertize": "UI/UX & Web Designer",
+        "description": "Professional copywriter with a knack for crafting persuasive and engaging content.",
+        "gig_image_url": "https://images.unsplash.com/photo-1517292987719-0369a794ec0f?w=400&h=300&fit=crop",
+        "url": "https://pdemo-10.netlify.app/"
     }
 ]
