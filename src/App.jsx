@@ -3,11 +3,10 @@ import "./App.css";
 import BuildRunScale from "./components/BuildRunScale/BuildRunScale";
 import Footer from "./components/Footer/Footer";
 import Hero from "./components/Hero/Hero";
-import Navbar from "./components/Hero/Navbar/Navbar";
+import Navbar from "./components/Navbar/Navbar";
 import Portfolios from "./components/Portfolios/Portfolios";
 
 function App() {
-    
 
     return (
         <>
