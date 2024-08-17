@@ -35,7 +35,7 @@ const Portfolios = () => {
                         <p className="mb-3 font-normal text-white">
                             {item.description}
                         </p>
-                        <img src={item.gig_image_url} alt="" className="w-full h-48"/>
+                        <img src={item.gig_image_url} alt="" className="w-full h-48 rounded-md"/>
                         <div className="text-center">
                         <a href={item.url} className="btn hover:bg-gray-950 bg-black w-full mt-4  text-white text-xl font-semibold px-auto" target="_blank">Live Link</a>
                         </div>
